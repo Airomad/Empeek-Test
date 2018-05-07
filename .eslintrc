@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "react/no-array-index-key": "off",
+    "linebreak-style": "off"
+  },
+  "parser": "babel-eslint",
+  "globals": {
+    "document": true,
+    "WebSocket": true
+  }
+}
